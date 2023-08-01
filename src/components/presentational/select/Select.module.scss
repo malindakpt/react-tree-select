@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .label {
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .count {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
